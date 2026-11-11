@@ -1,6 +1,8 @@
-string = input("Enter a string: ")
+string = "madam"
 
 reverse = string[::-1]
+
+print("Given string:", string)
 
 if string == reverse:
     print("The given string is a Palindrome")
